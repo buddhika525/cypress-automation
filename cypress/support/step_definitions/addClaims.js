@@ -13,8 +13,20 @@ When('user clicks on Assign claims button', ()=>{
     claimspage.clickAssignClaimsBtn();
 })
 
-When("user selects 'Sandra  Abbott' as the employee name", ()=>{
+When("user selects 'Ranga  Akunuri' as the employee name", ()=>{
     claimspage.clickOnEmpNameCol();
     
+})
+
+When("user selects 'Medical Reimbursement' as Event",()=>{
+    claimspage.clickOnEventDropDown();
+})
+
+When("user selects 'Euro' as Currency",()=>{
+    claimspage.clickOnCurrencyDropDown();
+})
+
+When('User clicks on create button',()=>{
+    claimspage.clickCreateBtn();
 })
 
